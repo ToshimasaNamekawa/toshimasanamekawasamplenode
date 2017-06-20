@@ -1,4 +1,3 @@
-
 var http = require('http');
 var fs = require('fs');
  
@@ -23,4 +22,5 @@ function doRequest(req, res) {
             res.write(data2);
             res.end();
         });
+}
 
